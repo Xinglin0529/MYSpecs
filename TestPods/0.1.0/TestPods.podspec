@@ -15,24 +15,23 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/Xinglin0529/TestPods"
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = 'MIT'
 
-
-  s.author             = { "Xinglin0529" => "email@address.com" }
+  s.author       = { "Xinglin0529" => "email@address.com" }
 
   s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/Xinglin0529/TestPods.git", :tag => "0.1.0" }
 
-  s.source_files  = "TestPods/Classes", "Classes/**/*.{h,m}"
+  s.source_files = "TestPods/Classes", "Classes/**/*.{h,m}"
 
   s.public_header_files = "TestPods/Classes/**/*.h"
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+  # s.library    = "iconv"
+  # s.libraries  = "iconv", "xml2"
 
 
   s.requires_arc = true
